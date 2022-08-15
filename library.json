@@ -1,0 +1,33 @@
+{
+	"name": "devnetXStopWatch",
+	"version": "1.0.0",
+	"description": "A simple Arduino Stop Watch Library.",
+	"keywords": "devnetX, Stop Watch, Stopwatch, Arduino",
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/devnetX-Development/devnetXStopWatch.git"
+	},
+	"authors":
+	[
+		{
+			"name": "Alexej Goujine",
+			"email": "dev@devnetx.at",
+			"url": "https://github.com/devnetX-Development",
+			"maintainer": true
+		}
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/devnetX-Development/devnetXStopWatch",
+	"dependencies":
+	{
+
+	},
+	"frameworks": "arduino",
+	"platforms": ["atmelavr", "espressif8266", "espressif32", "atmelsam"],
+	"export":
+	{
+		"exclude": [".vscode/*", ".pio/*", "include/*", "tests/*", ".gitignore", "platformio.ini", "src/main.cpp"]
+	},
+	"headers": ["devnetXStopWatch.h"]
+}
